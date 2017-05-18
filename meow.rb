@@ -1,4 +1,4 @@
-class Meow < Formula {
+class Meow < Formula
   desc "MongoDB Object Persistence Framework without boilerplate code"
   homepage "http://openkitten.org"
   version "0.1.0"
@@ -18,4 +18,4 @@ class Meow < Formula {
     bin.install ".build/release/sourcery"
     lib.install Dir[".build/release/*.dylib"]
   end
-}
+end
